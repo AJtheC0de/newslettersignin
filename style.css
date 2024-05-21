@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1,
+h2 {
+  font-family: "Oxygen", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+/* Instant settings above */
+
+.nsltstp {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 300px;
+  align-items: center;
+  background-color: #ffc96f;
+  padding: 40px 30px 40px 40px;
+  border-radius: 12px;
+}
+
+.exitbutton {
+  position: relative;
+  left: 150px;
+  bottom: 20px;
+}
+
+.firstinfo {
+  margin-right: 220px;
+}
+
+input {
+  padding: 15px 30px 15px 30px;
+  border: none;
+  border-radius: 12px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+button {
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px 50px 10px 50px;
+  text-align: center;
+  border-radius: 12px;
+  border: none;
+  background-color: white;
+  transition: 0.3s;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+button:hover {
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px 50px 10px 50px;
+  text-align: center;
+  border-radius: 12px;
+  border: none;
+  background-color: aliceblue;
+}
